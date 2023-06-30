@@ -4,18 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1256b3a7-0181-47ba-9c3b-d9a626558c6b" name="变更" comment="设计原则：依赖倒转demo">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/principles/InterfaceSegregationPrinciple/after/AntiTheft.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/principles/InterfaceSegregationPrinciple/after/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/principles/InterfaceSegregationPrinciple/after/Fireproof.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/principles/InterfaceSegregationPrinciple/after/HeiMaSafetyDoor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/principles/InterfaceSegregationPrinciple/after/ItcastSafetyDoor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/principles/InterfaceSegregationPrinciple/after/Waterproof.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/principles/InterfaceSegregationPrinciple/before/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/principles/InterfaceSegregationPrinciple/before/HeimaSafetyDoor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/principles/InterfaceSegregationPrinciple/before/SafetyDoor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="1256b3a7-0181-47ba-9c3b-d9a626558c6b" name="变更" comment="设计原则：接口隔离demo" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -65,20 +54,7 @@
       <recent name="com.principles.LiskovSubstitutionPrinciple.after" />
     </key>
   </component>
-  <component name="RunManager" selected="应用程序.com.principles.InterfaceSegregationPrinciple.after.Client">
-    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.principles.OpenClosedPrinciple.Client" />
-      <module name="DesignPattenHzw" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.principles.OpenClosedPrinciple.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="应用程序.com.principles.LawofDemeter.Client">
     <configuration name="ComputerDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.principles.DependencyInversionPrinciple.before.ComputerDemo" />
       <module name="DesignPattenHzw" />
@@ -131,13 +107,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="com.principles.LawofDemeter.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.principles.LawofDemeter.Client" />
+      <module name="DesignPattenHzw" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.principles.LawofDemeter.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="应用程序.com.principles.LawofDemeter.Client" />
         <item itemvalue="应用程序.com.principles.InterfaceSegregationPrinciple.after.Client" />
         <item itemvalue="应用程序.com.principles.InterfaceSegregationPrinciple.before.Client" />
         <item itemvalue="应用程序.ComputerDemo" />
         <item itemvalue="应用程序.RectangleDemo" />
-        <item itemvalue="应用程序.Client" />
       </list>
     </recent_temporary>
   </component>
@@ -149,7 +138,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1688098964027</updated>
-      <workItem from="1688098965431" duration="7950000" />
+      <workItem from="1688098965431" duration="8574000" />
     </task>
     <task id="LOCAL-00001" summary="设计模式第一次提交">
       <created>1688099329642</created>
@@ -179,7 +168,14 @@
       <option name="project" value="LOCAL" />
       <updated>1688122989636</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="设计原则：接口隔离demo">
+      <created>1688123268694</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1688123268694</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -201,6 +197,7 @@
     <MESSAGE value="设计原则：开闭原则demo" />
     <MESSAGE value="设计原则：里氏替换demo" />
     <MESSAGE value="设计原则：依赖倒转demo" />
-    <option name="LAST_COMMIT_MESSAGE" value="设计原则：依赖倒转demo" />
+    <MESSAGE value="设计原则：接口隔离demo" />
+    <option name="LAST_COMMIT_MESSAGE" value="设计原则：接口隔离demo" />
   </component>
 </project>
